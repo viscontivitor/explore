@@ -71,10 +71,6 @@
     width:30px;
     height:40px;
 }
-.magnifying{
-    /* margin-top:27px; */
-    
-}
 .buttonmenubar{
     height:30px; 
     width:30px; 
@@ -364,7 +360,6 @@
 }
 
 #main .photooftheday{
-    background: #0f0;
     width:100%;   
 }
 .imageoftheday{
@@ -422,6 +417,8 @@
 }
 .textanimals{
     text-align: center;
+    color: #fff;
+    text-decoration: none;
 }
 .slideshow-container {
     max-width: 400px;
@@ -446,11 +443,94 @@ img {vertical-align: middle;}
     #main{
         display:flex;
         flex-direction: column;
+        width:375px;
+        margin-left: 0;
+    }
+    #header{
+        width:375px;
+    }
+    .links{
+        margin-left:-625px;
+        margin-top:100px;
+        height:30px;
+    }
+    .explore{
+        margin-left:-350px;
+        height:10px;
     }
     .latestnews{
-        width:100%;
+        width:375px;
+        height:1500px;
+    }
+    .latestnewsp{
+        text-align: center;
+    }
+    .imgelephant{
+       width:375px;
+    }
+    .imgreforestation{
+        width:375px;
+    }
+    .imglatest{
+        width:185px;
     }
     .mostviewed{
-        width:100%;
+        width:375px;
+        margin-top:250px;
+        height:1700px;
+    }
+    .photooftheday{
+        width:375px;
+        height:100px;
+    }
+    .imageoftheday{
+        width:375px;
+        background-size: 375px;
+        margin-top:-150px;
+    }
+    #seemore{
+        margin-left:0px;
+        margin-top:250px;
+    }
+    .photoofthedaytext{
+        margin-top:50px;
+    }
+    .textmost1,.textmost2,.textmost3,.textmost4{
+        text-align: center;
+        margin-left:60px;
+    }
+    #animalstitle{
+        height:1300px;
+        text-align: center;
+    }
+    #animalimagescontainer{
+        display:flex;
+        flex-direction: column;
+    }
+    #elephant{
+        width:375px;
+    }
+    #eagle{
+        width:375px;
+    }
+    #searchbox{
+        justify-content: end;
+        width:100px;
+        margin-left:-860px;
+    }
+    .modal-body{
+        display:flex;
+        flex-direction: column;
+    }
+    .box2 a{
+        margin-left:0px;
+    }
+    .img1{
+        width:375px;
+        margin-left: 0px;
+    }
+    .p1{
+        text-align: center;
+        margin-left:0px;
     }
 }
